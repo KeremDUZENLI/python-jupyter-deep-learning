@@ -13,7 +13,8 @@ You can access the non-Colab version of the project directly on GitHub:
 1. Download Python 3.6.8: [Python 3.6.8 Download](https://www.python.org/downloads/release/python-368/)
 2. Check Python versions installed: `py -0`
 3. Check the default version: `python --version`
-4. Select Python 3.6.8: [Video Guide](https://www.youtube.com/watch?v=C5mn0WWKmGY&t=10s)
+4. Check python locations: `where python`
+5. Verify python 3.6.x location: `...\AppData\Local\Programs\Python\Python36\python.exe`
 
 ## Setup
 
@@ -23,7 +24,7 @@ You can access the non-Colab version of the project directly on GitHub:
    ```
 2. Create a virtual environment:
    ```sh
-   python -m venv myEnv
+   ...\AppData\Local\Programs\Python\Python36\python.exe -m venv myEnv
    ```
 3. Activate the virtual environment:
    - **Windows**: `myEnv\Scripts\activate`
@@ -51,9 +52,19 @@ You can access the non-Colab version of the project directly on GitHub:
    ```sh
    pip install jupyterlab
    ```
-2. Launch Jupyter:
+2. Register Python Environment:
+   ```sh
+   pip install jupyterlab ipykernel
+   python -m ipykernel install --user --name=myEnv --display-name "Python (myEnv)"
+   ```
+3. Launch Jupyter:
    ```sh
    jupyter lab
+   ```
+4. Change Kernel:
+   ```sh
+   Change kernel in Jupyterlab (Select after choosing the .ipynb file) =
+   Kernel → Change Kernel → Python (myEnv)
    ```
 
 ### Notebook Descriptions
