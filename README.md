@@ -2,7 +2,14 @@
 
 A collection of deep learning examples using Keras, covering neural networks, recommender systems, convolutions, and object detection. Based on the course **Advanced Machine Learning**, University of Debrecen.
 
-## GitHub Repository (Standalone Version)
+
+## Project Directory (Colab Version)
+
+You can access the Colab version of the project directly on Link:
+
+[tinyurl.com/machinelearningcolab](https://tinyurl.com/machinelearningcolab)
+
+## Project Directory (Standalone Version)
 
 You can access the non-Colab version of the project directly on GitHub:
 
