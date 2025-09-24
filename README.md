@@ -7,7 +7,7 @@ A collection of deep learning examples using Keras, covering neural networks, re
 
 You can access the Colab version of the project directly on Link:
 
-[tinyurl.com/machinelearningcolab](https://tinyurl.com/machinelearningcolab)
+[drive.google.com/drive/folders/1gJqkJh2jvNHUSmyQp5vk0GiSGvVwJtlP](https://drive.google.com/drive/folders/1gJqkJh2jvNHUSmyQp5vk0GiSGvVwJtlP)
 
 ## Project Directory (Standalone Version)
 
