@@ -12,7 +12,7 @@ You can access the Colab version of the project directly on Link:
 
 You can access the non-Colab version of the project directly on GitHub:
 
-[github.com/KeremDUZENLI/python-keras-deep-learning](https://github.com/KeremDUZENLI/python-keras-deep-learning)
+[github.com/KeremDUZENLI/python-jupyter-deep-learning](https://github.com/KeremDUZENLI/python-jupyter-deep-learning)
 
 ## Install
 
@@ -26,7 +26,7 @@ You can access the non-Colab version of the project directly on GitHub:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/KeremDUZENLI/python-keras-deep-learning.git
+   git clone https://github.com/KeremDUZENLI/python-jupyter-deep-learning.git
    ```
 2. Create a virtual environment:
    ```sh
@@ -68,6 +68,21 @@ You can access the non-Colab version of the project directly on GitHub:
    jupyter lab
    ```
 4. Change Kernel:
+   ```sh
+   Change kernel in Jupyterlab (Select after choosing the .ipynb file) =
+   Kernel → Change Kernel → Python (myEnv)
+   ```
+
+## Quick Run (after installation)
+
+1. Activate the virtual environment:
+   - **Windows**: `myEnv\Scripts\activate`
+   - **Linux/macOS**: `source myEnv/bin/activate`
+2. Launch Jupyter:
+   ```sh
+   jupyter lab
+   ```
+3. Change Kernel (if needed):
    ```sh
    Change kernel in Jupyterlab (Select after choosing the .ipynb file) =
    Kernel → Change Kernel → Python (myEnv)
