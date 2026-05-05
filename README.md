@@ -61,8 +61,7 @@ You can access the non-Colab version of the project directly on GitHub:
 2. Register Python Environment:
    ```sh
    pip install jupyterlab ipykernel
-   python -m ipykernel install --user --name=myEnv --display-name "Python (myEnv)"
-   python -m ipykernel install --user --name=deep_learning_env --display-name "Python 3.6 (Deep Learning)"
+   python -m ipykernel install --user --name=env_deep_learning --display-name "Python 3.6.8 (Deep Learning)"
    ```
 3. Launch Jupyter:
    ```sh
